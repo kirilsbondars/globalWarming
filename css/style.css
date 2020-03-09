@@ -76,10 +76,22 @@ ul.topnav li a.active {background-color: #4CAF50;}
 }
 
 .gallery-causes {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .gallery-causes img {
     width: 400px;
+}
+
+textarea {
+    height: 400px;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.form {
+    float: left;
 }
 
 @media screen and (max-width: 750px) {
