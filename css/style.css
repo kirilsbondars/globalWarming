@@ -75,12 +75,12 @@ ul.topnav li a.active {background-color: #4CAF50;}
     padding: 0 20px;
 }
 
-.gallery-causes {
+.gallery-topic {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.gallery-causes img {
+.gallery-topic img {
     width: 400px;
 }
 
@@ -94,6 +94,8 @@ textarea {
     float: left;
 }
 
+
+
 @media screen and (max-width: 750px) {
     ul.topnav li {float: none;}
     .text{padding: 0 10px}
@@ -106,11 +108,4 @@ textarea {
         justify-content: center;
         align-items: center;
     }
-    .gallery-causes img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-    }
-
 }
