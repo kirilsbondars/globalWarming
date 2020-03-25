@@ -10,22 +10,35 @@
     <script src="./js/lightbox-plus-jquery.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="images/index/logo.png">
     <title>Global warming</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
-    <ul class="topnav">
-        <li><a href="index.html">Global warming</a></li>
-        <li><a href="causes.html">Causes</a></li>
-        <li><a href="feedback.html">Feedback</a></li>
-        <li><a href="projections.html">Projections</a></li>
-        <li><a href="effects.html">Effects</a></li>
-        <li><a href="response.html">Response</a></li>
-        <li><a href="gallery.html" class="active">Gallery</a></li>
-    </ul>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Global warming</a>
+        <a href="causes.html">Causes</a>
+        <a href="effects.html">Effects</a>
+        <a href="feedback.html">Feedback</a>
+        <div class="dropdown">
+            <button class="dropbtn">Response
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="response.html">Introduction</a>
+                <a href="response.html#mitigation">Mitigation</a>
+                <a href="response.html#drivers">Drivers of greenhouse gas emissions</a>
+                <a href="response.html#reducing">Reducing greenhouse gases</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="contact.html">Contacts</a>
+    </div>
     <div class="gallery">
         <h1>Global warming</h1>
         <div class="gallery-topic">
-            <a href="./images/index/1024px-Change_in_Average_Temperature.png" data-lightbox="causes"><img src="./images/index/1024px-Change_in_Average_Temperature.png" alt="Radiative forcing 1750-2011" class="gallery"></a>
-            <a href="./images/index/1280px-Global_Temperature_Anomaly.svg.png" data-lightbox="causes"><img src="./images/index/1280px-Global_Temperature_Anomaly.svg.png" alt="Greenhouse Effect"></a>
+            <a href="./images/index/1024px-Change_in_Average_Temperature.png" data-lightbox="globalw"><img src="./images/index/1024px-Change_in_Average_Temperature.png" alt="Radiative forcing 1750-2011" class="gallery"></a>
+            <a href="./images/index/1280px-Global_Temperature_Anomaly.svg.png" data-lightbox="globalw"><img src="./images/index/1280px-Global_Temperature_Anomaly.svg.png" alt="Greenhouse Effect"></a>
         </div>
         <h1>Causes</h1>
         <div class="gallery-topic">
@@ -35,9 +48,9 @@
         </div>
         <h1>Responses</h1>
         <div class="gallery-topic">
-            <a href="./images/response/1024px-Annual_greenhouse_gas_emissions_by_sector,_in_2010_(color).png" data-lightbox="causes"><img src="./images/response/1024px-Annual_greenhouse_gas_emissions_by_sector,_in_2010_(color).png" alt="Radiative forcing 1750-2011" class="gallery"></a>
-            <a href="./images/response/1024px-CO2_emission_pie_chart.svg.png" data-lightbox="causes"><img src="./images/response/1024px-CO2_emission_pie_chart.svg.png" alt="Greenhouse Effect"></a>
-            <a href="./images/response/1024px-Mitigation_pathways.svg.png" data-lightbox="causes"><img src="./images/response/1024px-Mitigation_pathways.svg.png" alt="Carbon Dioxide"></a>
+            <a href="./images/response/1024px-Annual_greenhouse_gas_emissions_by_sector,_in_2010_(color).png" data-lightbox="responses"><img src="./images/response/1024px-Annual_greenhouse_gas_emissions_by_sector,_in_2010_(color).png" alt="Radiative forcing 1750-2011" class="gallery"></a>
+            <a href="./images/response/1024px-CO2_emission_pie_chart.svg.png" data-lightbox="responses"><img src="./images/response/1024px-CO2_emission_pie_chart.svg.png" alt="Greenhouse Effect"></a>
+            <a href="./images/response/1024px-Mitigation_pathways.svg.png" data-lightbox="responses"><img src="./images/response/1024px-Mitigation_pathways.svg.png" alt="Carbon Dioxide"></a>
         </div>
     </div>
 </body>
